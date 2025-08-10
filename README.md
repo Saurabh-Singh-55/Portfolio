@@ -1,6 +1,6 @@
 # Saurabh Singh — AI Portfolio (GitHub Pages)
 
-A modern, FAANG-ready single-page portfolio optimized for AI/ML roles. Built with semantic HTML, modern CSS, and lightweight JavaScript. Fully responsive, fast, and easy to deploy on GitHub Pages.
+A modern, single-page portfolio built with semantic HTML, modern CSS, and lightweight JavaScript. Fully responsive, fast, and easy to deploy on GitHub Pages.
 
 ## Live Demo
 - Enable GitHub Pages (instructions below), then share the site URL.
