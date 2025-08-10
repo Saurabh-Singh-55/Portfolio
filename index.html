@@ -1,549 +1,1134 @@
-<!-- Credits to OmahPSD. Thanks a lot! -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Saurabh Singh - AI Engineer</title>
+    <meta name="description" content="Software Engineer specializing in Data & AI, building enterprise AI applications and data infrastructure">
+    <meta name="author" content="Saurabh Singh">
     
-    <title>Saurabh - My Home Page</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/ekko-lightbox.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-  </head>
-
-  <body>
-  <div id="boxWrapp">
-    <div class="main-nav clearfix">
-      <!-- navbar -->
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavCol">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand bg-primary" href="#about">Saurabh</a>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/modern-style.css">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">SS</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#awards" class="nav-link">Awards</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="NavCol">
-         <ul class="nav navbar-nav navbar-right">
-           
-            <li class="current"><a href="#about" class="linear">Home</a></li>
-            <li><a href="#aboutMore" class="linear">About</a></li>
-            <li><a href="#Publications" class="linear">Publications</a></li>
-            <li><a href="#Internships" class="linear">Internships</a></li>
-            <li><a href="#Projects" class="linear">Projects</a></li>
-            <li><a href="#contact" class="linear">Contact</a></li>
-          </ul>
-        
-         
-        </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
     </nav>
-      
-    </div>
-    <!-- Full Page Image Header Area -->
-    <div id="about" class="header">
 
-    <div class="maskHeader"></div>
-    <div class="main-caption">
-            <!-- slider -->
-    <div id="flex-head" class="flexslider">
-        <ul class="slides">
-            <li>
-                <h1>Hi, I'm Saurabh</h1>    
-                <h2>Welcome to My Home Page</h2>
-            </li>
-            <li>
-                <h1>I'm a graduate student at Boston University</h1>
-                <h2>Passionate about solving problems and learning new things in life</h2>
-            </li>
-            <li>
-                <h1>Personal artistic expression</h1>
-                <h2>Turning ideas into code in the most efficient way is my expression of art </h2>
-            </li>
-            <li>
-                <h1>Explore my work</h1> 
-                <h2>Read this page to know more about me</h2>   
-            </li>
-        </ul>
-    </div> 
-    <!-- end slider --> 
-        <a href="#aboutMore" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">READ MORE</a>
-    </div><!--  end main caption -->
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hi, I'm</span>
+                        <span class="title-name">Saurabh Singh</span>
+                        <span class="title-role">AI Engineer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Software Engineer specializing in Data & AI, building enterprise-grade AI applications 
+                        and data infrastructure that drive business outcomes at scale.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">AI Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">VP</span>
+                            <span class="stat-label">Level Recognition</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-snippet">
+                        <div class="code-header">
+                            <span class="code-title">ai_engineer.py</span>
+                            <div class="code-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">class</span> <span class="class-name">AIEngineer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.expertise = [
+            <span class="string">"LLMs & RAG Systems"</span>,
+            <span class="string">"Data Pipelines"</span>,
+            <span class="string">"Enterprise AI"</span>,
+            <span class="string">"Full-stack Development"</span>
+        ]
+        <span class="param">self</span>.impact = <span class="string">"Production-grade solutions"</span>
+    
+    <span class="keyword">def</span> <span class="function">solve_problems</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> <span class="string">"AI-driven innovation"</span></code></pre>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Awards</h2>
+                <p class="section-subtitle">Recognition for engineering impact and innovation</p>
+            </div>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Dataverse Business Impact Award</h3>
+                            <p class="company-name">Red Hat</p>
+                            <p class="duration">Q2 2025</p>
+                        </div>
+                        <div class="experience-badge">
+                            <span>Award</span>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <p>
+                            Best Engineering Innovation in Dataverse — AI. Recognized for developing an intelligent assistant
+                            that empowers leaders to extract insights from the enterprise data platform via conversational,
+                            context-aware interfaces. The prototype was built in under two days, demonstrating rapid innovation
+                            and proving viability. Impact areas include reduced time-to-insight, higher trust in AI-assisted tools,
+                            and increased productivity for leadership.
+                        </p>
+                        <div class="responsibilities">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>LLM-powered assistant utilizing software agent paradigms and multi-component patterns</li>
+                                <li>Shift from static dashboards to dynamic conversational interfaces</li>
+                                <li>Strong positive feedback from key stakeholders</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Building the future with AI and data</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm a passionate Software Engineer specializing in Data & AI with a proven track record 
+                            of delivering enterprise-grade AI applications that receive executive-level recognition. 
+                            My journey spans from academic research to building production systems that solve real-world 
+                            business problems.
+                        </p>
+                        <p>
+                            Currently, I design and build full-stack AI applications and data infrastructure, 
+                            focusing on LLMs, RAG systems, and automated data pipelines. My work has consistently 
+                            delivered significant business impact, including reducing complex manual processes from 
+                            months to weeks using AI-assisted methodologies.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <h3>Key Strengths</h3>
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <i class="fas fa-rocket"></i>
+                                <h4>Rapid Innovation</h4>
+                                <p>Praised by VPs for quick iterations and bringing velocity to AI initiatives</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-bullseye"></i>
+                                <h4>Business Impact</h4>
+                                <p>Connecting technical solutions to real business problems and strategic goals</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-cogs"></i>
+                                <h4>Enterprise Quality</h4>
+                                <p>Building production-ready, scalable solutions that integrate into core workflows</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Cross-functional Leadership</h4>
+                                <p>Collaborating across teams and driving adoption of AI solutions organization-wide</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-journey">
+                        <h3>Professional Journey</h3>
+                        <div class="journey-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2024 - Present</div>
+                                <div class="timeline-content">
+                                    <h4>Software Engineer, Data & AI</h4>
+                                    <p>Red Hat — Leading enterprise AI initiatives, building production-grade applications</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2024</div>
+                                <div class="timeline-content">
+                                    <h4>Research Assistant</h4>
+                                    <p>Advanced RAG research for healthcare applications at Boston University</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2022 - 2024</div>
+                                <div class="timeline-content">
+                                    <h4>Graduate Studies</h4>
+                                    <p>MS Computer Science, Boston University - Focus on AI/ML</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="img/profile-professional.jpeg" alt="Saurabh Singh" onerror="this.style.display='none'">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Saurabh Singh</h3>
+                            <p>Software Engineer, Data & AI</p>
+                            <div class="profile-stats">
+                                <div class="profile-stat">
+                                    <span class="stat-value">100%</span>
+                                    <span class="stat-label">Project Success Rate</span>
+                                </div>
+                                <div class="profile-stat">
+                                    <span class="stat-value">VP+</span>
+                                    <span class="stat-label">Executive Recognition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-stack-preview">
+                        <h4>Core Technologies</h4>
+                        <div class="tech-icons">
+                            <span class="tech-icon" title="Python">🐍</span>
+                            <span class="tech-icon" title="TensorFlow">🔥</span>
+                            <span class="tech-icon" title="React">⚛️</span>
+                            <span class="tech-icon" title="Docker">🐳</span>
+                            <span class="tech-icon" title="Kubernetes">☸️</span>
+                            <span class="tech-icon" title="PostgreSQL">🐘</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Building AI solutions that drive business outcomes</p>
+            </div>
             
-    </div>
-    <!-- end header -->
-    <!-- /Full Page Image Header Area -->
-
-    
-    <!-- content -->
-    <div id="aboutMore" class="page">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10  col-md-offset-1">
-            <div class="build title-page">
-                <h2 class="text-center">ABOUT ME</h2>   
-                <div class="line-title bg-primary"></div>
-            </div>
-           </div><!-- end col -->
-        </div><!-- end row -->
-        
-        <div class="row">
-           <div class="col-md-12">
-               <div class="build main-about">
-                   <div class="row">
-                       <div class="col-md-3">
-                            <div class="main-avatar text-center">
-                                <div class="avatar img-thumbnail img-circle">
-                                <img src="img/pass_one.png" alt="avatar" />
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <br>
-                                <span style="font-weight:bold">
-                                    <p style="font-size:18px"> 
-                                        Saurabh Singh <br>
-                                        CS Grad, Boston University <br>
-                                    </p>
-                                </span>
-                            </div>
-                       </div>
-
-                       <div class="col-md-9">
-                            <div class="about-content">
-                                    <p>
-                                      I am Saurabh Singh, a graduate student in Computer Science at Boston University with a Bachelor's degree
-                                      in Computer Science and Engineering from Tezpur University. Throughout my academic journey, I have focused
-                                      on software engineering and machine learning, consistently striving for innovation in these fields.
-                                      My profound interest in computer science and my passion for innovation drive me to enthusiastically 
-                                      contribute to advancements in the field as I continue my academic journey at Boston University.<br>
-                                    </p>
-                                    <p>
-                                      Apart from academics, I have a passion for football and enjoy playing sports like cricket, badminton, and volleyball. During my free time, I engage in portrait sketching and chess matches. 
-                                    <p>
-                                      For additional details about my academic background, please refer to my resume.
-                                    </p>
-                                    <br>
-
-                                    <div class="row">
-                                        <div class="col-md-4 col-md-offset-0">
-                                            <a href="resources/cvCompact.pdf" class="btn btnAbout btn-clear btn-lg border-color color-primary linear">RESUME</a>  
-                                        </div>
-                                        <div class="col-md-4">
-                                            <a href="#Projects" class="btn btnAbout btn-clear btn-lg border-color linear color-primary">PROJECTS</a>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <a href="#contact" class="btn btnAbout btn-clear btn-lg border-color linear color-primary">CONTACT ME</a>
-                                        </div>
-                                    </div><!--/row-->
-
-                            </div>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Software Engineer, Data & AI</h3>
+                            <p class="company-name">Red Hat</p>
+                            <p class="duration">Jul 2025 - Present</p>
+                        </div>
+                        <div class="experience-badge">
+                            <span>Current Role</span>
                         </div>
                     </div>
                     
-                    <div class="row">
-        
-                    </div><!-- end col -->  
-                                        
-                </div>
-            </div><!-- end col -->
-          
-        </div><!-- end row -->
-      </div>
-      </div>
-        
-    <!-- Publications -->   
-
-    <div id="Publications" class="page clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10  col-md-offset-1">
-                    <div class="build title-page">
-                        <h2 class="text-center">PUBLICATIONS</h2>   
-                            <div class="line-title bg-primary"></div>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <br>
-        </div>
-
-        <div class="container">
-           <div class="row panel-default">
-            <div class="col-md-10  col-md-offset-1">
-              <div class="panel-body">
-                  <h4>
-                    <strong><a href="https://doi.org/10.1007/978-3-031-30111-7_45">Adaptive early classification of time series using Deep Learning </a></strong>
-                  </h4>
-                  <div class="text-right">
-                    <h6> <strong>A Sharma, Saurabh Singh, Abhinav Kumar,
-                      Amit Singh, and Sanjay Singh (IIT BHU)</strong> </h6> 
-                  </div>
-                  <UL>
-                    <LI> <strong><a href="https://doi.org/10.1007/978-3-031-30111-7_45"></a>Conference:</strong> International Conference on Neural Information Processing <strong>(ICONIP 2022) </strong>
-                  </UL>  
-                  <h4>
-                    <strong>Abstract:</strong>
-                  </h4>
-                  <p class="desc"> Early Classification of Time Series (ECTS) is a process of
-                    predicting the class label of time series at the earliest without observing
-                    the complete sequence. Time Series data is a collection of data points
-                    over time, and a decision has been made based on a complete sequence.
-                    However, early decision based on partial information is beneficial in timesensitive applications. ECTS is an emerging research area with multiple
-                    applications in various domains such as health and disease prediction
-                    in medicine, Quality and Process Monitoring in Industry, Drought and
-                    Crop monitoring in agriculture. In this paper, we propose an adaptive
-                    early classification model composed of two components. The first component is the base classifier, which has been designed as a hybrid model
-                    of Convolutional Neural Network and Recurrent Neural Network. The
-                    Second component is the decision policy designed for adaptive halting
-                    capabilities, which has been defined as a reinforcement learning agent to
-                    determine when to stop and make a prediction. We evaluated our model
-                    on publicly available different kinds of time-series datasets. The proposed
-                    method outperformed the state-of-the-art in terms of both accuracy and
-                    earliness.</p>
-                  <br>
-
-
-                  <br>
-
-                  <h4>
-                    <strong><a href="resources/GPS.pdf">Driving behavior analysis using Deep Learning on GPS data</a></strong>
-                  </h4>
-                  <div class="text-right">
-                    <h6> <strong> Saurabh Singh, Utkarsh Anand, Anurag patel and Debojit Boro (Tezpur University)</strong> </h6> 
-                  </div>
-                  <UL>
-                    <LI> <strong>Conference: </strong>Emerging Global Trends in Engineering and Technology <strong>(EGTET 2022)</strong> </strong>
-                  </UL>     
-                  <h4>
-                    <strong>Abstract:</strong>
-                  </h4>
-                  <p class="desc">Aggressive drivers are often considered to violate traffic rules
-                    and adopt dangerous driving behavior. This requires the development of
-                    effective and robust classifiers for unsafe drivers. Driving behavior analysis is the classification of driving behavior based on the driver’s GPS
-                    trajectory. With ever-increasing GPS trajectory data, dangerous driving
-                    behavior can be thoroughly analyzed and better classified using a deep
-                    learning model. Behavioral analytics can help us analyze and identify
-                    dangerous drivers that contribute to traffic safety and promote safe driving behavior. In this paper, we propose a novel feature extraction model
-                    using a statistical approach to extract the important features from the
-                    GPS trajectory data and label the trajectory. To overcome the dataset
-                    dependency, we propose to use a deep learning model on our labeled data
-                    and finally classify the safe and unsafe drivers. The proposed method
-                    demonstrates high accuracy with reduced computational overhead.</p>
-                  <br>                
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <br>
-
-    </div><!--end container-->
-
-    <!-- Internships -->
-    <div id="Internships" class="page clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10  col-md-offset-1">
-                    <div class="build title-page">
-                        <h2 class="text-center">INTERNSHIPS</h2>    
-                            <div class="line-title bg-primary"></div>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        
-                <div class="col-md-12">
-                <div class="folio-content clearfix">
-                <div class="row">
-                    
-                    <div class="col-md-8 col-md-offset-2 box">
-                    <div class="folio-img">
-                        <div class="portfolio-item ">
-                            <div class="thumbnail">
-                                <div class="thumb-img">
-                              
-                                    <div class="link-attr">
-                                        <a href="img/portfolio/ubc.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="RCRL model (RNN, CNN and RL combined)" class="link-search animated linear">
-                                            <i class="fa fa-search"></i></a>
-                                        <a href="https://doi.org/10.1007/978-3-031-30111-7_45" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                    </div>
-                                    
-                                    <img class="linear img-portfolio img-responsive" src="img/portfolio/ubc.jpg" alt="RCRL model (RNN, CNN and RL combined)">
-                                                       
-                                    <div class="folio-caption">
-                                        <i class="fa fa-caret-up"></i>
-                                       <p>IIT BHU Research Internship</p>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div><!-- end col -->
-            <br>
-        </div>
-
-        <br><br>
-
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <center><a href="resources/Internship.pdf"  class="btn btn-clear btn-lg border-color linear hire">DETAILS OF INTERNSHIPS</a></center>   
-            </div><!--/col-md-4-->
-        </div><!--/row-->
-        <br><br>
-
-    </div><!--end container-->
-
-
-    <!-- Selected Projects -->   
-
-    <div id="Projects" class="page clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10  col-md-offset-1">
-                    <div class="build title-page">
-                        <h2 class="text-center">SELECTED PROJECTS</h2>  
-                            <div class="line-title bg-primary"></div>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <br>
-        </div>
-
-        <div class="container">
-           <div class="row panel-default">
-            <div class="col-md-10  col-md-offset-1">
-              <div class="panel-body ">
-                  <h4>
-                    <strong><a href="https://link.springer.com/chapter/10.1007/978-981-99-4362-3_29">Driving behavior analysis using Deep Learning on GPS data</a></strong>
-                  </h4>
-                  <div class="about-content">
-                      <UL>
-                        <LI> Applied advanced statistical techniques and feature extraction methods to assess and label driving behaviour from GPS trajectory data
-                        <LI> Identified incidents of harsh acceleration and braking by leveraging the acceleration feature. Also, detected harsh turning events by analyzing the angle change in trajectory.
-                          Calculated CDF values of Extracted Feature to label the Unlabelled GPS trajectory
-                        <LI> Employed a deep learning model to directly correlate GPS trajectories with their respective driving behaviour classifications
-                      </UL>
-                  </div>
-                  <br>
-
-                  <h4>
-                    <strong><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YWUlZ9QAAAAJ&citation_for_view=YWUlZ9QAAAAJ:u5HHmVD_uO8C">Adaptive early classification of time series using Deep Learning</a></strong>
-                  </h4>
-                  <div class="about-content">
-                    <UL>
-                      <LI> Proposed an adaptive early classification model composed of a base classifier designed as a hybrid model of
-                        Convolutional Neural Network and Recurrent Neural Network
-                      <LI> Introduced a decision policy, defined as a reinforcement learning agent which determines halting strategy to make a
-                        prediction based on the base classifier
-                      <LI> Evaluated the model on different kinds of publicly available time-series datasets. The proposed model outperformed the
-                        state-of-the-art alternatives, both in terms of accuracy and earliness
-                    </UL>
-                  </div>
-                  <br>
-
-                <h4>
-                  <strong><a href="TransferLearing.html">Transfer Learning on CIFAR10: Benchmarking Inceptionv2, ResNet50, and VGG19</a></strong>
-                </h4>
-                <div class="about-content">
-                    <UL>
-                      <LI> The project Fine tuned Inceptionv2, ResNet50, and VGG19 pre-trained models on CIFAR10. Inceptionv2 excelled with a 95.44% accuracy and F1 score of 0.9567, signifying the effectiveness of strategic fine-tuning practices such as utilizing techniques like SGD with momentum, low learning rates, gradual unfreezing, discriminative fine-tuning, and learning rate schedule to enhance performance and prevent overfitting.
-                      <LI> Inceptionv2's performance peaked with a training time of just over 4 hours on a T4 GPU, outshining its counterparts with top test accuracy and F1 score. Its architectural complexity was well-suited to the dataset, demonstrating the potential of sophisticated models in transfer learning scenarios.
-                      <LI> ResNet50 displayed a balance of efficiency and accuracy on the T4 GPU, with training times averaging just under 3 hours and achieving a high test accuracy of 94.11% and an F1 score of 0.9415, validating the effectiveness of deep networks with residual learning.
-                      <LI> VGG19, with an extensive parameter set, showed a higher susceptibility to overfitting and a longer training duration of approximately 3 hours and 51 minutes on a T4 GPU, achieving a test accuracy of 93.31% and F1 score of 0.9327. This underscores the importance of model architecture compatibility with the dataset size.
-                    </UL>
-                </div>
-                <br>
-
-
-                  <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/Heart-Disease-prediction-using-Statistical-analysis">Heart Disease Prediction using Logistic Regression</a></strong>
-                  </h4>
-                  <div class="about-content">
-                      <UL>
-                        <LI> Heart Disease Analysis: Conducted an in-depth exploratory analysis of the Heart Disease Dataset from Cleveland UCI, uncovering key insights and relationships.
-                        <LI> Data Management: Handled data preprocessing, including missing value treatment, outlier management, and categorization. Ensured assumptions for statistical tests were met and validated.
-                        <LI> Predictive Modeling: Employed Logistic Regression in R, achieving a prediction accuracy of 88.13%, with 92% sensitivity and 84% specificity.
-                        <LI>  Visualizations & Reporting: Presented findings using data visualizations like bar charts and ROC curves, aiding in the interpretation of complex statistical outcomes for non-experts.
-                      </UL>
-                  </div>
-                  <br>
-
-                  <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/Live_Attendance_using_Face_Recognition">Face Recognition Attendance System</a></strong>
-                  </h4>
-                  <div class="about-content">
-                      <UL>
-                        <LI> Developed a face recognition system using OpenCV and face_recognition to detect and recognize faces in real-time webcam.
-                        <LI> Executed automated attendance recording with real-time CSV logging.
-                          
-                      </UL>
-                  </div>
-                  <br>
-
-                  <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/Data-Cleaning-and-Analysis">Exploratory Data Analysis and Sampling</a></strong>
-                  </h4>
-                  <div class="about-content">
-                      <UL>
-                        <LI> FIFA 21 Data Analysis: Conducted comprehensive data cleaning and preprocessing on the FIFA 21 dataset, focusing on key attributes such as player nationality, club, height, weight, and performance metrics.
-                        <LI> Sampling Techniques: Implemented various sampling methods, including simple random sampling (with and without replacement) and stratified sampling. Demonstrated the applicability of the Central Limit Theorem through random sampling.
-                        <LI> Data Visualization: Utilized histograms, bar plots, box plots, and pie charts to depict distributions, correlations, and specific insights, ensuring clarity in data presentation.
-                        <LI> Predictive Analysis: Developed a new feature to determine player eligibility for FC Barcelona based on performance metrics, thereby aiding in talent scouting and recruitment strategies.
+                    <div class="experience-description">
+                        <p>Design and build full-stack AI applications and data infrastructure to accelerate data-driven initiatives.</p>
                         
-                          </UL>
-                  </div>
-                  <br>
+                        <div class="achievements">
+                            <h4>Key Achievements</h4>
+                            <div class="achievement-grid">
+                                <div class="achievement-item">
+                                    <div class="achievement-metric">VP+</div>
+                                    <div class="achievement-desc">Executive recognition for AI innovation velocity</div>
+                                </div>
+                                <div class="achievement-item">
+                                    <div class="achievement-metric">6mo→3wk</div>
+                                    <div class="achievement-desc">Reduced complex analysis timeline using AI</div>
+                                </div>
+                                <div class="achievement-item">
+                                    <div class="achievement-metric">100%</div>
+                                    <div class="achievement-desc">Production deployment success rate</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="responsibilities">
+                            <h4>Core Responsibilities</h4>
+                            <ul>
+                                <li>Developed enterprise AI assistant platform with advanced MCP server integration</li>
+                                <li>Built AI-powered natural language query interfaces for large-scale data access</li>
+                                <li>Engineered critical data pipelines ensuring data integrity for business analytics</li>
+                                <li>Pioneered AI-assisted methodologies for legacy system analysis and migration</li>
+                                <li>Led cross-functional collaboration to integrate AI solutions into core workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Data Pipelines</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
 
-                  <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/Reinforcement-Learning-AI-in-Game-Playing">Optimal Gameplay using Reinforcement Learning</a></strong>
-                </h4>
-                <div class="about-content">
-                    <ul>
-                        <li>Applied Q-learning on Crawler robot in a simulated environment. Observed parameters affect the agent’s policies and actions.</li>
-                        <li>Implemented an approximate Q-learning agent and with only 50 training games, the agent managed almost a 100% win rate.</li>
-                    </ul>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Data Engineer</h3>
+                            <p class="company-name">Red Hat</p>
+                            <p class="duration">Jan 2025 - Jul 2025 · 7 mos</p>
+                        </div>
+                        <div class="experience-badge">
+                            <span>Data</span>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Delivered reliable data products and pipelines as part of a modern data platform.</p>
+                        <div class="responsibilities">
+                            <h4>Core Contributions</h4>
+                            <ul>
+                                <li>Designed ELT pipelines and transformations with modern data stack practices</li>
+                                <li>Implemented event-based ingestion and data quality checks</li>
+                                <li>Partnered with analytics to support marketing and product insights</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Data Warehousing</span>
+                        <span class="tech-tag">dbt</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
                 </div>
-                <br>
-                
-                <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/Pacman-Multi-Agent-Search">Multi Agent Search</a></strong>
-                </h4>
-                <div class="about-content">
-                    <ul>
-                        <li>Applied an adversarial search agent using the min-max algorithm with multiple min layers for every max layer.</li>
-                        <li>Used an ExpectimaxAgent, for modeling probabilistic behavior of agents who may make suboptimal choices.</li>
-                    </ul>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Data & AI Intern</h3>
+                            <p class="company-name">Red Hat</p>
+                            <p class="duration">May 2024 - Dec 2024 · 8 mos</p>
+                        </div>
+                        <div class="experience-badge">
+                            <span>Internship</span>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Explored LLMs, vector embeddings, and advanced RAG to build practical AI capabilities.</p>
+                        <div class="responsibilities">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>Prototyped NL-to-SQL and multi-database query translation techniques</li>
+                                <li>Evaluated retrieval strategies including routing, re-ranking, and corrective RAG</li>
+                                <li>Optimized chunking, indexing hierarchies, and embedding strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Vector DB</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
                 </div>
-                <br>
-                
-                <h4>
-                    <strong><a href="https://github.com/Saurabh-Singh-55/PacMan-Search">PacMan-Search</a></strong>
-                </h4>
-                <div class="about-content">
-                  <ul>
-                    <li>Searching - DFS, BFS, UCS, Greedy Search, A* Search, etc. In this project, Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.</p>
-                  </ul>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Research Assistant</h3>
+                            <p class="company-name">Boston University</p>
+                            <p class="duration">Feb 2024 - May 2024 · 4 mos</p>
+                        </div>
+                        <div class="experience-badge research">
+                            <span>Research</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-description">
+                        <p>Research on AI-driven solutions leveraging LLMs, vector embeddings, and RAG for healthcare guideline generation.</p>
+                        
+                        <div class="responsibilities">
+                            <h4>Research Focus Areas</h4>
+                            <ul>
+                                <li>Advanced Retrieval-Augmented Generation (RAG) techniques and optimization strategies</li>
+                                <li>Query decomposition and translation methodologies for multi-database systems</li>
+                                <li>Specialized embedding models and hierarchical indexing architectures</li>
+                                <li>Self-RAG and corrective RAG implementations for improved generation quality</li>
+                                <li>Vector database optimization and semantic routing for healthcare applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Vector Embeddings</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Graph Databases</span>
+                        <span class="tech-tag">Vector Databases</span>
+                        <span class="tech-tag">NLP</span>
+                    </div>
                 </div>
-                <br>
-                
-              
-              </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-info">
+                            <h3>Graduate Student</h3>
+                            <p class="company-name">Boston University</p>
+                            <p class="duration">2022 - 2024</p>
+                        </div>
+                        <div class="experience-badge education">
+                            <span>Education</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-description">
+                        <p>Master of Science in Computer Science with focus on Machine Learning and AI research.</p>
+                        
+                        <div class="achievements">
+                            <h4>Academic Achievements</h4>
+                            <div class="achievement-list">
+                                <div class="achievement-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Published research in ICONIP 2022 (International Conference on Neural Information Processing)</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Developed novel adaptive early classification model for time series</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Research on driving behavior analysis using deep learning on GPS data</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">CNN/RNN</span>
+                        <span class="tech-tag">Reinforcement Learning</span>
+                        <span class="tech-tag">Time Series</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        
-        <br>
+    </section>
 
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <center><a href="https://github.com/Saurabh-Singh-55" class="btn btn-clear btn-lg border-color linear hire">DETAILS OF PROJECTS</a></center>   
-            </div><!--/col-md-4-->
-        </div><!--/row-->
-        <br><br>
-
-    </div><!--end container-->
-
-
-
-    <!--contact-->
-    <div id="contact" class="page page-bgcolor">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
         <div class="container">
-        <div class="row">
-          <div class="col-md-10  col-md-offset-1">
-            <div class="build title-page">
-                <h2 class="text-center">GET IN TOUCH</h2>   
-                <div class="line-title bg-primary"></div>
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Cutting-edge technologies for AI and data solutions</p>
             </div>
-           </div><!-- end col -->
-        </div><!-- end row -->
-        <div class="row">
-            <div class="col-md-7 ">
-                <div class="build contact clearfix text-center">
-                    <span class="fa fa-map-marker"></span>
-                        <p>69 Langley Rd, Brighton <br />Boston, MA 02135<p>
-                </div>          
-            </div><!-- end col -->      
-            <div class="col-md-3 ">
-                <div class="build contact clearfix text-center">
-                    <span class="fa fa-envelope"></span>
-                    <p>ssmail@bu.edu.in</p>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🤖</div>
+                            <h4>Large Language Models</h4>
+                            <p>GPT, Gemini, Claude, Fine-tuning, Prompt Engineering</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔍</div>
+                            <h4>RAG Systems</h4>
+                            <p>Vector embeddings, Semantic search, Multi-modal RAG</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🧠</div>
+                            <h4>Deep Learning</h4>
+                            <p>TensorFlow, PyTorch, CNN, RNN, Transfer Learning</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📊</div>
+                            <h4>ML Operations</h4>
+                            <p>Model deployment, MLflow, Monitoring, A/B testing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Data Engineering</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🔄</div>
+                            <h4>Data Pipelines</h4>
+                            <p>ETL/ELT, Real-time processing, Event-driven architecture</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🗄️</div>
+                            <h4>Databases</h4>
+                            <p>PostgreSQL, Vector DBs, Graph DBs, NoSQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">☁️</div>
+                            <h4>Cloud Platforms</h4>
+                            <p>AWS, Docker, Kubernetes, Serverless</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📈</div>
+                            <h4>Analytics Tools</h4>
+                            <p>Snowflake, dbt, Apache Spark, Data warehousing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Software Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <h4>Backend Development</h4>
+                            <p>Python, FastAPI, Node.js, Microservices</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚛️</div>
+                            <h4>Frontend Development</h4>
+                            <p>React, TypeScript, Modern CSS, Responsive design</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔧</div>
+                            <h4>DevOps & Tools</h4>
+                            <p>Git, CI/CD, Testing, Monitoring, Agile</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🏗️</div>
+                            <h4>System Design</h4>
+                            <p>Scalable architecture, API design, Security</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div><!-- end row -->
-    
-      </div><!-- end container -->
-    </div>
-    <!--contact-->
-    
-    <!-- Footer -->
-    <footer class="bg-black">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-7 text-right">
-        
-            <ul class="list-inline">
-            <li><a href="https://www.instagram.com/_._yaduvanshi_._/" class="socIcon color-primary linear"><i class="fa fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://github.com/Saurabh-Singh-55" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/saurabh-sks/" class="socIcon color-primary linear"><i class="fa fa-linkedin fa-2x"></i></a></li>
-            </ul>
-        
+
+            <div class="skills-proficiency">
+                <h3>Proficiency Levels</h3>
+                <div class="proficiency-bars">
+                    <div class="proficiency-item">
+                        <div class="proficiency-label">
+                            <span>Python & AI/ML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="proficiency-item">
+                        <div class="proficiency-label">
+                            <span>Data Engineering</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="proficiency-item">
+                        <div class="proficiency-label">
+                            <span>Full-stack Development</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="proficiency-item">
+                        <div class="proficiency-label">
+                            <span>Cloud & DevOps</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="proficiency-bar">
+                            <div class="proficiency-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Enterprise-grade AI solutions with proven business impact</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge production">Production</span>
+                        </div>
+                    </div>
+                    <h3>Enterprise AI Assistant Platform</h3>
+                    <p>
+                        Sophisticated AI assistant platform with specialized capabilities for data interaction 
+                        and knowledge base queries. Features human-in-the-loop security model and scalable 
+                        three-tier architecture.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">VP+</span>
+                            <span class="metric-label">Executive Recognition</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">4K+</span>
+                            <span class="metric-label">Lines of Code</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-label">Deployment Success</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Vector DB</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn btn-outline" onclick="showProjectDetails('ai-assistant')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge production">Production</span>
+                        </div>
+                    </div>
+                    <h3>Snowgenie: Natural Language Data Access</h3>
+                    <p>
+                        Web-based AI platform enabling non-technical users to query large datasets using 
+                        natural language. Open-source project focused on self-serve analytics and safe NL-to-SQL.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">Risk</span>
+                            <span class="metric-label">Mitigation</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Self-Service</span>
+                            <span class="metric-label">Data Access</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">SQL Generation</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Cloud DB</span>
+                    </div>
+                    <div class="project-actions">
+                        <a class="btn btn-outline" href="https://github.com/Saurabh-Singh-55/Snowgenie" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <h3>AI-Assisted Legacy System Analysis</h3>
+                    <p>
+                        Pioneered AI-assisted methodology for reverse engineering complex legacy data pipelines. 
+                        Condensed 6-month manual process into weeks, enabling strategic system migration planning.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">6mo→3wk</span>
+                            <span class="metric-label">Time Reduction</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">80+</span>
+                            <span class="metric-label">Components Analyzed</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">AI Analysis</span>
+                        <span class="tech-tag">System Migration</span>
+                        <span class="tech-tag">Data Mapping</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn btn-outline" onclick="showProjectDetails('legacy-analysis')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge research">Research</span>
+                        </div>
+                    </div>
+                    <h3>Advanced RAG for Healthcare</h3>
+                    <p>
+                        Research on AI-driven solutions leveraging LLMs, vector embeddings, and sophisticated 
+                        RAG techniques for healthcare guideline generation. Explored multiple retrieval 
+                        optimization strategies.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">Multi-DB</span>
+                            <span class="metric-label">Query Support</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Healthcare</span>
+                            <span class="metric-label">Application</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Vector Embeddings</span>
+                        <span class="tech-tag">Graph DB</span>
+                        <span class="tech-tag">LLMs</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn btn-outline" onclick="showProjectDetails('healthcare-rag')">View Details</button>
+                        <a class="btn btn-outline" href="https://github.com/Saurabh-Singh-55/Advanced-RAG" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge published">Published</span>
+                        </div>
+                    </div>
+                    <h3>Adaptive Early Time Series Classification</h3>
+                    <p>
+                        Novel deep learning model combining CNN, RNN, and reinforcement learning for early 
+                        time series classification. Published in ICONIP 2022, outperformed state-of-the-art 
+                        in accuracy and earliness.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">ICONIP</span>
+                            <span class="metric-label">2022 Published</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">SOTA</span>
+                            <span class="metric-label">Performance</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">CNN/RNN</span>
+                        <span class="tech-tag">RL</span>
+                        <span class="tech-tag">Time Series</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://doi.org/10.1007/978-3-031-30111-7_45" target="_blank" class="btn btn-outline">
+                            View Paper
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Transfer Learning on CIFAR-10 as last featured project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Benchmark</span>
+                        </div>
+                    </div>
+                    <h3>Transfer Learning on CIFAR-10</h3>
+                    <p>
+                        Benchmarked InceptionV3, ResNet50, and VGG19 using advanced fine-tuning strategies 
+                        (gradual unfreezing, discriminative LR, scheduling). InceptionV3 achieved 95.44% accuracy 
+                        and 0.9567 F1; ResNet50 achieved 94.11% accuracy and 0.9415 F1; VGG19 achieved 93.31% 
+                        accuracy and 0.9327 F1, highlighting architecture–dataset fit.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">95.44%</span>
+                            <span class="metric-label">Top Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">0.9567</span>
+                            <span class="metric-label">Top F1</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">3 Models</span>
+                            <span class="metric-label">Benchmarked</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Transfer Learning</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">TensorFlow/PyTorch</span>
+                    </div>
+                    <div class="project-actions">
+                        <a class="btn btn-outline" href="projects/transfer-learning.html" target="_blank" rel="noopener">Read Report</a>
+                    </div>
+                </div>
+
+                
+
+                <!-- More Projects -->
+                <div class="project-card full-width">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-folder-open"></i></div>
+                        <div class="project-status"><span class="status-badge completed">More</span></div>
+                    </div>
+                    <h3>Additional Projects</h3>
+                    <p>Selected technical projects across AI, data, and systems:</p>
+                    <ul class="responsibilities">
+                        <li>Offline Chatbot with RAG on PDFs and Webpages</li>
+                        <li>Advanced MNIST Classification and Dimensionality Reduction</li>
+                        <li>Advanced Query Processing with Spark and OpenAI</li>
+                        <li>Kafka-Airflow Pipeline for Real-Time Streaming</li>
+                        <li>Optimal Gameplay using Reinforcement Learning</li>
+                        <li>Exploratory Data Analysis and Sampling</li>
+                        <li>LLM Inference Time and Resource Usage Analysis (3B–70B)</li>
+                        <li>Heart Disease Prediction using Logistic Regression</li>
+                    </ul>
+                    <div class="project-actions">
+                        <a class="btn btn-outline" href="https://github.com/Saurabh-Singh-55" target="_blank" rel="noopener">Browse GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Research & Publications</h2>
+                <p class="section-subtitle">Contributing to the advancement of AI and machine learning</p>
+            </div>
+            
+            <div class="research-content">
+                <div class="publication-item">
+                    <div class="publication-header">
+                        <h3>Adaptive early classification of time series using Deep Learning</h3>
+                        <div class="publication-meta">
+                            <span class="venue">ICONIP 2022</span>
+                            <span class="year">2022</span>
+                            <span class="type">Conference Paper</span>
+                        </div>
+                    </div>
+                    <div class="publication-authors">
+                        A Sharma, <strong>Saurabh Singh</strong>, Abhinav Kumar, Amit Singh, and Sanjay Singh
+                    </div>
+                    <div class="publication-abstract">
+                        <p>
+                            Proposed an adaptive early classification model composed of a base classifier designed as a hybrid model of 
+                            Convolutional Neural Network and Recurrent Neural Network, with a reinforcement learning decision policy 
+                            for adaptive halting capabilities. The model outperformed state-of-the-art alternatives in both accuracy and earliness.
+                        </p>
+                    </div>
+                    <div class="publication-impact">
+                        <div class="impact-metric">
+                            <i class="fas fa-trophy"></i>
+                            <span>Outperformed SOTA</span>
+                        </div>
+                        <div class="impact-metric">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Novel Architecture</span>
+                        </div>
+                        <div class="impact-metric">
+                            <i class="fas fa-clock"></i>
+                            <span>Early Classification</span>
+                        </div>
+                    </div>
+                    <div class="publication-actions">
+                        <a href="https://doi.org/10.1007/978-3-031-30111-7_45" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Paper
+                        </a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-header">
+                        <h3>Driving behavior analysis using Deep Learning on GPS data</h3>
+                        <div class="publication-meta">
+                            <span class="venue">EGTET 2022</span>
+                            <span class="year">2022</span>
+                            <span class="type">Conference Paper</span>
+                        </div>
+                    </div>
+                    <div class="publication-authors">
+                        <strong>Saurabh Singh</strong>, Utkarsh Anand, Anurag Patel, and Debojit Boro
+                    </div>
+                    <div class="publication-abstract">
+                        <p>
+                            Novel feature extraction model using statistical approach to extract important features from GPS trajectory data 
+                            and classify safe vs unsafe driving behavior. Applied deep learning model with reduced computational overhead 
+                            while maintaining high accuracy for dangerous driving pattern detection.
+                        </p>
+                    </div>
+                    <div class="publication-impact">
+                        <div class="impact-metric">
+                            <i class="fas fa-road"></i>
+                            <span>Traffic Safety</span>
+                        </div>
+                        <div class="impact-metric">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>High Performance</span>
+                        </div>
+                        <div class="impact-metric">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>GPS Analytics</span>
+                        </div>
+                    </div>
+                    <div class="publication-actions">
+                        <button class="btn btn-outline" onclick="showPublicationDetails('gps-paper')"><i class="fas fa-info-circle"></i> View Details</button>
+                        <a href="https://link.springer.com/chapter/10.1007/978-981-99-4362-3_29" target="_blank" class="btn btn-outline" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Chapter
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-interests">
+                <h3>Research Interests</h3>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-brain"></i>
+                        <h4>Large Language Models</h4>
+                        <p>Advancing LLM capabilities for enterprise applications</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-search"></i>
+                        <h4>Retrieval-Augmented Generation</h4>
+                        <p>Optimizing RAG systems for domain-specific applications</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Time Series Analysis</h4>
+                        <p>Early classification and forecasting methodologies</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-hospital"></i>
+                        <h4>AI for Healthcare</h4>
+                        <p>AI-driven solutions for medical guideline generation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to build the future of AI together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:ssmail@bu.edu">ssmail@bu.edu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/saurabh-sks/" target="_blank">linkedin.com/in/saurabh-sks</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Saurabh-Singh-55" target="_blank">github.com/Saurabh-Singh-55</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Boston, MA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <h3>Interested in collaboration?</h3>
+                    <p>
+                        I'm always excited to discuss AI innovations, data engineering challenges, 
+                        and opportunities to build impactful solutions. Whether you're looking for 
+                        technical expertise or want to explore potential collaborations, let's connect!
+                    </p>
+                    <div class="cta-actions">
+                        <a href="mailto:ssmail@bu.edu" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Send Email
+                        </a>
+                        <a href="resources/resume.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Saurabh Singh</h3>
+                    <p>Software Engineer, Data & AI</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/saurabh-sks/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Saurabh-Singh-55" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:ssmail@bu.edu" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Saurabh Singh. Crafted with passion for AI innovation.</p>
+            </div>
+        </div>
     </footer>
-    <!-- /Footer -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.sticky.js" ></script>
-     <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo.js" ></script>
-    <script src="js/jquery.flexslider.js" ></script>
-   <script type="text/javascript" src="js/ekko-lightbox.js"></script>
-   <script src="js/jquery.easing.1.3.js" ></script>
-   <script src="js/jquery.shuffle.js" ></script>
-    <script src="js/script.js"></script>
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title"></h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Project details will be inserted here -->
+            </div>
+        </div>
+    </div>
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-72535905-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-  </div>
-  </body>
-
+    <!-- Scripts -->
+    <script src="js/modern-script.js"></script>
+</body>
 </html>
+
